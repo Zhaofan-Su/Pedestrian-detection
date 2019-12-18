@@ -22,6 +22,7 @@ cd Pedestrian-detection
 python demo.py 
 ```
 `demo.py`有如下参数可供使用
+
 | 参数 | 默认值 | 描述 |
 | ------ | ------ | ------ |
 | -v[--version] | RFB_vgg | 选择版本 | 
@@ -36,6 +37,7 @@ python demo.py
 python train_RFB.py
 ```
 `train_RFB.py`重要参数介绍
+
 | 参数 | 默认值 | 描述 |
 | ------ | ------ | ------ |
 | -b[--batch_size] | 64 | 定义训练的batch size |
@@ -43,6 +45,7 @@ python train_RFB.py
 | --ngpu | 4 | GPU个数 |
 | --lr[--learning-rate] | 1e-2 | 学习率 |
 | …… | …… | …… |
+
 使用如下命令查看所有参数
 ```sh
 python train_RFB.py -h
@@ -52,12 +55,14 @@ python train_RFB.py -h
 python test_RFB.py
 ```
 `test_RFB.py`重要参数介绍
+
 | 参数 | 默认值 | 描述 |
 | ------ | ------ | ------ |
 | -m[--trained_model] | weights/7690.pth | 已训练的模型 |
 | --cuda | True | 是否使用cuda测试模型 |
 | --cpu | False | 是否使用cpu测试模型 |
 | …… | …… | …… |
+
 使用如下命令查看全部参数
 ```sh
 python test_RFB.py -h
