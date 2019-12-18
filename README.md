@@ -62,3 +62,12 @@ python test_RFB.py
 ```sh
 python test_RFB.py -h
 ```
+<br/>
+<br/>
+
+
+---
+
+本项目使用[CUHK Occlusion Dataset](http://mmlab.%3C/b%3Eie.cuhk.edu.hk/datasets/cuhk_occlusion/index.html) 
+
+[行人检测数据集打包下载](https://pan.baidu.com/s/1o8aanoQ) &nbsp;密码：xkka
